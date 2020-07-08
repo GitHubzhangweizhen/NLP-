@@ -1,6 +1,6 @@
 import numpy as np
 samples = ['我 毕业 于 北京理工大学','我 就职 于 中国科学院技算技术研究所']
-#为文本做一个索引，或者说是编号
+#为文本做一个索引或者说是编号 
 token_index = {}
 for sample in samples:
     for word in sample.split():
